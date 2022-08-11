@@ -1,0 +1,90 @@
+.leftSidebar{
+    height: calc(100vh);
+    border-radius: 0 !important;
+}
+
+.linkSideNav{
+    color: #131522 !important;
+}
+
+.linkSideNav:hover{
+    color: white !important;
+}
+
+.btnClose{
+    color: #FFC700 !important;
+    font-size: 1.2rem;
+}
+
+.btnClose:hover{
+    background-color: white !important;
+    color: #131522 !important;
+}
+
+.active{
+    color:white !important;
+}
+
+@media (max-width: 1290px) {
+    .linkSideNav{
+        font-size: 1rem;
+    }
+    .sideNavIcon{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 945px) {
+    .linkBox{
+        text-align: center !important;
+    }
+    .sideNavTitle{
+        display: none;
+    }
+}
+
+@media (max-width: 720px) {
+    .btnClose{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .iconUser{
+        font-size: 5rem;
+    }
+
+    .userName{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .btnClose{
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 1rem;
+    }
+
+    .iconUser{
+        font-size: 4rem;
+    }
+
+    .userName{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 468px) {
+    .btnClose{
+        margin-left: -6px;
+        font-size: 0.5rem;
+    }
+
+    .iconUser{
+        font-size: 4rem;
+    }
+
+    .userName{
+        font-size: 1.2rem;
+    }
+}

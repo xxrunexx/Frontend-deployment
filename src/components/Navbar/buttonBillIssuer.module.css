@@ -1,0 +1,24 @@
+/* .arrowIcon{
+    font-size: 4rem !important;
+}
+
+.arrowIcon:hover{
+    color: white !important;
+} */
+
+.titleInput{
+    font-size: 1rem;
+    font-weight: 100 !important;
+}
+
+.multipleInput{
+    padding: 0 !important;
+}
+
+.addNewItem{
+    color: #131522 !important;
+}
+
+.addNewItem:hover{
+    color: white !important;
+}

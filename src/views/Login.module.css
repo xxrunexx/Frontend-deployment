@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.bgLogin {
+    background-color: #131522;
+    height: 100vh;
+}
+
+#title {
+    font-family: 'Michroma', sans-serif, 'Roboto';
+    font-size: 72px;
+    color: #E5E5E5;
+    text-align: center;
+}
+
+#btnLogin {
+    width: 100%;
+    margin-bottom: 5%;
+    text-decoration: none;
+    color: #131522;
+    background-color: #FFC700;
+    font-weight: 1000;
+}
+
+#aRegister {
+    text-align: center;
+    display: block;
+    color: #E5E5E5;
+    text-decoration: none;
+}
+
+.textfieldLogin {
+    background-color: #E5E5E5;
+    width: 100%;
+    margin-bottom: 5% !important;
+}
+
+.gridLoginform {
+    position: absolute;
+    margin-top: 65vh !important;
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.bgRegister {
+    background-color: #131522;
+    height: 170vh;
+    /* height: 200vh; */
+}
+
+.logo{
+    width: 80px ;
+    height: 80px;
+    
+}
+#title {
+    font-family: 'Michroma', sans-serif, 'Roboto';
+    font-size: 72px;
+    color: #E5E5E5;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#aTerms {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #E5E5E5;
+    text-align: center;
+    display: block;
+    line-height: 23px;
+    font-weight: normal;   
+}
+
+#btnRegister {
+    width: 100%;
+    text-decoration: none;
+    color: #131522;
+    background-color: #FFC700;
+    font-weight: 1000;
+}
+
+.textfieldRegister {
+    background-color: #E5E5E5;
+    width: 100%;
+    margin-bottom: 5% !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.gridRegisterForm {
+    position: absolute;
+    margin-top: 65vh !important;
+    margin-top: 60% !important;
+    padding:20px;
+    width:40%;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}

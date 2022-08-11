@@ -1,0 +1,21 @@
+.link{
+    color: #131522 !important;
+}
+
+.link:hover{
+    color: white !important;
+}
+
+.headInfo{
+    font-size: 1.5rem !important;
+}
+
+.detailInfo{
+    font-size: 1.1rem ;
+}
+
+@media (max-width: 900px) {
+    .responsive{
+        text-align: center !important;
+    }
+}

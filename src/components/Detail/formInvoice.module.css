@@ -1,0 +1,21 @@
+.titleInput{
+    font-size: 1rem;
+    font-weight: 100 !important;
+}
+
+.multipleInput{
+    padding: 0 !important;
+}
+
+.addNewItem{
+    color: #131522 !important;
+}
+
+.addNewItem:hover{
+    color: white !important;
+}
+
+.background{
+    background-color: #131522;
+    height: 100vh;
+}

@@ -1,0 +1,36 @@
+.btn{
+    background-color: #FFC700 !important;
+    color: #131522 !important; 
+    border-radius: 10px !important;
+}
+
+.btnWidth{
+    width: 105% !important;
+}
+
+.btn:hover{
+    background-color: white !important;
+}
+
+.topModal{
+    margin-bottom: 0 !important;
+}
+
+.modalUpdate:hover{
+    background-color: white !important;
+    color: #131522 !important;
+}
+
+@media (max-width: 768px) {
+    .modalBox{
+        width:450px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 550px) {
+    .modalBox{
+        width:350px;
+        text-align: center;
+    }
+}
