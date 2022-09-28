@@ -12,7 +12,7 @@ const Detailinvoice = () => {
     useEffect(() => {
         function getApiData() {
             const paramApi = localStorage.getItem("id");
-            axios.get(`http://18.140.197.103:8000/invoice/${paramApi}`)
+            axios.get(`http://122.248.192.108:8000/invoice/${paramApi}`)
                 .then(res => {
                     setDataApi(res.data.data);
                     console.log(res);

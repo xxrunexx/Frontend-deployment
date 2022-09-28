@@ -100,7 +100,7 @@ const Dashboardbipagecard = ({data}) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await axios.put(
-        'http://18.140.197.103:8000/client',
+        'http://122.248.192.108:8000/client',
         {   
           id: data.client_id,
           nik: parseInt(values.nik),

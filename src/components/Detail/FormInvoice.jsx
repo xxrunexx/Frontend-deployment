@@ -77,7 +77,7 @@ const Forminvoice = () => {
     React.useEffect(() => {
       const getClient = async () => {
           await axios.get(
-              'http://18.140.197.103:8000/client',
+              'http://122.248.192.108:8000/client',
               {
                   headers: {
                       'Content-Type': 'application/json',
@@ -95,7 +95,7 @@ const Forminvoice = () => {
     const handlerUserData = (event) => {
       id.current = event.target.value;
       axios.get(
-          `http://18.140.197.103:8000/client/${id.current}`,
+          `http://122.248.192.108:8000/client/${id.current}`,
           {
               headers: {
                   'Content-Type': 'application/json',
@@ -135,7 +135,7 @@ const Forminvoice = () => {
     const handleSubmit = async (e) => {
       e.preventDefault();
       await axios.post(
-          'http://18.140.197.103:8000/invoice/add',
+          'http://122.248.192.108:8000/invoice/add',
           {   
               client_id: values.clientID,
               item: values.itemName,

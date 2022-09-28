@@ -11,7 +11,7 @@ const Dashboardpaid = () => {
     React.useEffect(() => {
         const getPaidInvoice = async () => {
             await axios.get(
-                'http://18.140.197.103:8000/invoice',
+                'http://122.248.192.108:8000/invoice',
                 {
                     headers: {
                         'Content-Type': 'application/json',

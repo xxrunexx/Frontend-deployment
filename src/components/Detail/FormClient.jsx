@@ -84,7 +84,7 @@ const Formclient = () => {
     e.preventDefault();
     axios
       .post(
-        'http://18.140.197.103:8000/client/add',
+        'http://122.248.192.108:8000/client/add',
         {
           nik: parseInt(values.nik),
           name: values.name,

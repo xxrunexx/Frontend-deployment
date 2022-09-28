@@ -11,7 +11,7 @@ import LanguageIcon from '@mui/icons-material/Language';
 import axios from 'axios';
 
 const Useregisterdetail = ({userID}) => {
-    const API = "http://18.140.197.103:8000";
+    const API = "http://122.248.192.108:8000";
     const history = useHistory();
     const [values, setValues] = useState({
         companyName:'',

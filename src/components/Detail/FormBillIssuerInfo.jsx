@@ -90,7 +90,7 @@ const FormBillIssuerInfo = () => {
     const credential = jwt_decode(token.current);
 
     const getUserByID = async () => {
-      await axios.get(`http://18.140.197.103:8000/billissuer/${credential.userId}`)
+      await axios.get(`http://122.248.192.108:8000/billissuer/${credential.userId}`)
         .then((response) => {
           // setResultUser(response.data);
           setValuesUser({
@@ -103,7 +103,7 @@ const FormBillIssuerInfo = () => {
     };
 
     const getUserDetailByID = async () => {
-      await axios.get(`http://18.140.197.103:8000/billissuerdetail/${credential.userId}`)
+      await axios.get(`http://122.248.192.108:8000/billissuerdetail/${credential.userId}`)
         .then((response) => {
           // setResultUserDetail(response.data);
           setValuesUserDetail({
@@ -131,7 +131,7 @@ const FormBillIssuerInfo = () => {
     e.preventDefault();
     console.log("Isi value : ", valuesUser)
     // Update user data
-    await axios.put(`http://18.140.197.103:8000/billissuer`, 
+    await axios.put(`http://122.248.192.108:8000/billissuer`, 
     {
       id: valuesUser.id,
       name: valuesUser.name,
@@ -154,7 +154,7 @@ const FormBillIssuerInfo = () => {
   })
 
     // // Update user detail data
-    await axios.put(`http://18.140.197.103:8000/billissuerdetail`, {
+    await axios.put(`http://122.248.192.108:8000/billissuerdetail`, {
       id: valuesUserDetail.id,
       company_name: valuesUserDetail.companyName,
       company_address: valuesUserDetail.companyAddress,

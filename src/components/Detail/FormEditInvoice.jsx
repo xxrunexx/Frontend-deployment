@@ -98,7 +98,7 @@ const Forminvoice = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await axios.put(
-      'http://18.140.197.103:8000/invoice/update',
+      'http://122.248.192.108:8000/invoice/update',
       {
         id: location.state.data.id,
         client_id: location.state.data.client_id,

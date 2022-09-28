@@ -29,7 +29,7 @@ const Updateinvoice = ({data,dataDetail, status}) => {
         e.preventDefault();
         axios
          .delete(
-            `http://18.140.197.103:8000/invoice/${data.id}`,
+            `http://122.248.192.108:8000/invoice/${data.id}`,
             
          )
          .then(function () {
@@ -48,7 +48,7 @@ const Updateinvoice = ({data,dataDetail, status}) => {
         e.preventDefault();
         axios
          .put(
-            'http://18.140.197.103:8000/invoice/update',
+            'http://122.248.192.108:8000/invoice/update',
             {
                 id: data.id,
                 client_id: data.client_id,
@@ -73,7 +73,7 @@ const Updateinvoice = ({data,dataDetail, status}) => {
         e.preventDefault();
         axios
          .put(
-            'http://18.140.197.103:8000/invoice/update',
+            'http://122.248.192.108:8000/invoice/update',
             {
                 id: data.id,
                 client_id: data.client_id,

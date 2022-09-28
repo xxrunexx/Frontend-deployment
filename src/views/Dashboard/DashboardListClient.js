@@ -15,7 +15,7 @@ const DashboardListClient = () => {
     React.useEffect(() => {
         const getClient = async () => {
             await axios.get(
-                'http://18.140.197.103:8000/client',
+                'http://122.248.192.108:8000/client',
                 {
                     headers: {
                         'Content-Type': 'application/json',

@@ -60,7 +60,7 @@ const Useregister = () => {
         if (values.confirmedPassword) {
             const hashPassword = sha256(values.password).slice(0, 12)
             await axios.post(
-                'http://18.140.197.103:8000/billissuer/register',
+                'http://122.248.192.108:8000/billissuer/register',
                 {
                     name: values.name,
                     password: hashPassword,

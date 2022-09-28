@@ -27,7 +27,7 @@ const Editinvoice = () => {
     React.useEffect(() => {
         const getInvoices = async () => {
             await axios.get(
-                `http://18.140.197.103:8000/invoice/${location.state.data.id}`,
+                `http://122.248.192.108:8000/invoice/${location.state.data.id}`,
                 {
                     headers: {
                         'Content-Type': 'application/json',
@@ -51,7 +51,7 @@ const Editinvoice = () => {
         };
         const getBillIssuerDetail = async () => {
             await axios.get(
-                `http://18.140.197.103:8000/billissuerdetail/${location.state.data.id}`,
+                `http://122.248.192.108:8000/billissuerdetail/${location.state.data.id}`,
                 {
                     headers: {
                         'Content-Type': 'application/json',
